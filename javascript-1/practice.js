@@ -141,6 +141,8 @@ let total = myNumbers.reduce((acc, curr) => acc + curr);
 // Finally, use .forEach to find the index of each item in the array. To begin, create an empty array called 'myNumbersIndex'. Then, use forEach to push each item's index from the myNumbers array into the newly created myNumbersIndex array. 
 
 let myNumbersIndex = [];
+// for(var i = 0; i <= myNumbers.length - 1; i++);
+// return myNumbers.forEach(myNumbersIndex);
 
 
 //////////////////PROBLEM 18////////////////////
@@ -148,7 +150,7 @@ let myNumbersIndex = [];
 // Did you know that George Foreman has five sons named George? Go ahead and change everyone's name in the notGeorge array to George using .map. Store the resulting array in a variable named 'forTheLoveOfGeorge'.
 const notGeorge = ['Louis', 'Ted', 'Bill', 'Sharon', 'Mark', 'Angela']
 
-// Code Here
+const forTheLoveOfGeorge = notGeorge.map(element => 'George');
 
 //////////////////PROBLEM 19////////////////////
 
@@ -162,10 +164,10 @@ const people = [
 	{ name: 'Josh', friend: true, awesomeLevel: 7 }
 ]
 
-// Code Here
+const enemies = people.filter(element => people.friend = false);
 
 //////////////////PROBLEM 20////////////////////
 
 // Using the people array above, get a total of the awesomeLevel from all the people, and store that value in a variable named 'totallyAwesome'. Use .reduce().
 
-// Code Here
+let totallyAwesome = people.awesomeLevel.reduce();
